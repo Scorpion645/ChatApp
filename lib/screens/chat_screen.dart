@@ -52,7 +52,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     decoration: InputDecoration(
                         contentPadding:
                             EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                        hintText: 'Write your message here ...',
+                        hintText: 'Write your message here ..',
                         border: InputBorder.none),
                   ),
                 ),
