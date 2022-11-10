@@ -3,14 +3,15 @@
 import 'package:chatapp1/widgets/my_button.dart';
 import 'package:flutter/material.dart';
 
-class RegstrationScreen extends StatefulWidget {
-  const RegstrationScreen({super.key});
+class RegistrationScreen extends StatefulWidget {
+  static const String screenRoute = 'registration_screen';
+  const RegistrationScreen({super.key});
 
   @override
-  State<RegstrationScreen> createState() => _RegstrationScreenState();
+  State<RegistrationScreen> createState() => _RegistrationScreenState();
 }
 
-class _RegstrationScreenState extends State<RegstrationScreen> {
+class _RegistrationScreenState extends State<RegistrationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

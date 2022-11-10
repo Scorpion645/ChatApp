@@ -4,6 +4,7 @@ import 'package:chatapp1/widgets/my_button.dart';
 import 'package:flutter/material.dart';
 
 class SiginScreen extends StatefulWidget {
+  static const String screenRoute = 'sigin_screen';
   const SiginScreen({super.key});
 
   @override

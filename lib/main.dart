@@ -9,13 +9,20 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp ({super.key});
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ChatScreen(),
+      // home: ChatScreen(),
+      initialRoute: WelcomeScreen.screenRoute,
+      routes: {
+        WelcomeScreen.screenRoute:(context) => WelcomeScreen(),
+        SiginScreen.screenRoute:(context) => SiginScreen(),
+        RegistrationScreen.screenRoute:(context) => RegistrationScreen(),
+        ChatScreen.screenRoute:(context) => ChatScreen(),
+      },
     );
   }
 }
